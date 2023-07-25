@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+*{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(3, 27, 3);
+    color: white;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    border-radius:10px;
+}
+
+
+.container{
+    padding: 10px;
+    background-color: rgb(207, 201, 201);
+  
+    display: flex; 
+    justify-content: space-between;
+    height: 700px;
+
+}
+.item{
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.item1{
+    background-color: white;
+    border-color: 2px solid red;
+    width: 33%;
+    height: 400px;
+    padding: 10px;
+
+    }
+.item2{
+    background-color: rgb(255, 255, 255);
+    border: 2px sold black;
+    height: 400px;
+    width: 33%;
+    padding:10px ;
+}
+.item3imgs{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 550px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+.item3 img{
+    display: flex;
+    height: 180px;
+    width: 180px;
+}
